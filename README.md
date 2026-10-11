@@ -41,6 +41,7 @@ Method	            URL	                                                Result
 GET	            /api/rewards?startMonth=2026-01	                All customers, January through March
 GET	            /api/rewards/101?startMonth=2026-01         	One customer, January through March
 GET	            /api/rewards/101	                            Last three months ending with the latest stored transaction month
+
 startMonth is optional and must be YYYY-MM with year 0001–9998. The window is always three consecutive calendar months. Queries use [first day of start month, first day of fourth month); year rollover works automatically. Months with no purchases appear with zero points. Existing customers with no purchases are included. If the purchase table is empty, the default ends in the current server calendar month. Unknown customer: 404; invalid ID/month: 400; unexpected failure: generic 500 with server-side logging.
 
 curl "http://localhost:8080/api/rewards/101?startMonth=2026-01"
