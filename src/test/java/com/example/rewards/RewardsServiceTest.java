@@ -18,7 +18,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 /** Tests aggregation independently of HTTP and the database. */
 @ExtendWith(MockitoExtension.class)
-class RewardsServiceTest {
+public class RewardsServiceTest {
   @Mock private RewardsRepository repository;
   @Spy private RewardCalculator calculator = new RewardCalculator();
   @InjectMocks private RewardsService service;

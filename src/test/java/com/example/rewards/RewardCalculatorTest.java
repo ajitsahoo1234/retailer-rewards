@@ -9,7 +9,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
 /** Verifies tier boundaries, fractional policy, and invalid amounts. */
-class RewardCalculatorTest {
+public class RewardCalculatorTest {
   private final RewardCalculator calculator = new RewardCalculator();
 
   /** Checks independent examples against the complete-dollar policy. */

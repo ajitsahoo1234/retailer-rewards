@@ -68,4 +68,3 @@ Postman: select GET, paste the URL, and click Send. No request body or authentic
 | 105 | Vikram       |       50 |       50 |       50 |   150 |
 | 106 | Sara         |     2248 |     2248 |     2248 |  6744 |
 | 107 | John         |        0 |        0 |        0 |     0 |
-| 108 | No Purchases |        0 |        0 |        0 |     0 |

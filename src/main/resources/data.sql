@@ -6,8 +6,7 @@ INSERT INTO customer (id, name) VALUES
 (104, 'Neha'),
 (105, 'Vikram'),
 (106, 'Sara'),
-(107, 'John'),
-(108, 'No Purchases');
+(107, 'John');
 
 INSERT INTO purchase_transaction (id, customer_id, amount, transaction_date) VALUES
 (1, 101, 120.00, DATE '2025-11-05'),
