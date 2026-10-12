@@ -1,4 +1,4 @@
-package com.example.rewards;
+package com.example.rewards.repository;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
@@ -13,6 +13,9 @@ import java.sql.Date;
 import java.sql.ResultSet;
 import java.time.LocalDate;
 import java.util.List;
+
+import com.example.rewards.model.Customer;
+import com.example.rewards.model.Purchase;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentMatchers;

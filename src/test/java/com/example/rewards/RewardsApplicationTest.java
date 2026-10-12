@@ -2,6 +2,9 @@ package com.example.rewards;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+import com.example.rewards.controller.RewardsController;
+import com.example.rewards.repository.RewardsRepository;
+import com.example.rewards.service.RewardsService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

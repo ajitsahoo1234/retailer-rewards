@@ -1,4 +1,4 @@
-package com.example.rewards;
+package com.example.rewards.controller;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertSame;
@@ -11,6 +11,10 @@ import java.time.YearMonth;
 import java.time.format.DateTimeParseException;
 import java.util.List;
 import java.util.Map;
+
+import com.example.rewards.RewardResponse;
+import com.example.rewards.exception.CustomerNotFoundException;
+import com.example.rewards.service.RewardsService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;

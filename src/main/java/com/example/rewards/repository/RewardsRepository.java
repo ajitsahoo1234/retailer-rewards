@@ -1,7 +1,10 @@
-package com.example.rewards;
+package com.example.rewards.repository;
 
 import java.time.LocalDate;
 import java.util.List;
+
+import com.example.rewards.model.Customer;
+import com.example.rewards.model.Purchase;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 

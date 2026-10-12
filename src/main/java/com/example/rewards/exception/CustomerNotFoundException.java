@@ -1,4 +1,4 @@
-package com.example.rewards;
+package com.example.rewards.exception;
 
 /** Signals that an explicitly requested customer does not exist. */
 public class CustomerNotFoundException extends RuntimeException {

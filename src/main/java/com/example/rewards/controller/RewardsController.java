@@ -1,8 +1,11 @@
-package com.example.rewards;
+package com.example.rewards.controller;
 
 import java.time.YearMonth;
 import java.time.format.DateTimeParseException;
 import java.util.List;
+
+import com.example.rewards.RewardResponse;
+import com.example.rewards.service.RewardsService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

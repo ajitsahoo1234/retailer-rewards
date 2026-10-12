@@ -1,4 +1,4 @@
-package com.example.rewards;
+package com.example.rewards.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -9,6 +9,12 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.List;
+
+import com.example.rewards.RewardCalculator;
+import com.example.rewards.exception.CustomerNotFoundException;
+import com.example.rewards.model.Customer;
+import com.example.rewards.model.Purchase;
+import com.example.rewards.repository.RewardsRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

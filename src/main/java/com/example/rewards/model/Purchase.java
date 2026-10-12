@@ -1,4 +1,4 @@
-package com.example.rewards;
+package com.example.rewards.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

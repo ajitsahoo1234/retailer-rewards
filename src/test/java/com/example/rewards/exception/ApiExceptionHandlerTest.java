@@ -1,4 +1,4 @@
-package com.example.rewards;
+package com.example.rewards.exception;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;

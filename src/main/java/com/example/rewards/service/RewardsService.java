@@ -1,4 +1,4 @@
-package com.example.rewards;
+package com.example.rewards.service;
 
 import java.time.YearMonth;
 import java.util.Collections;
@@ -6,6 +6,12 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+
+import com.example.rewards.*;
+import com.example.rewards.exception.CustomerNotFoundException;
+import com.example.rewards.model.Customer;
+import com.example.rewards.model.Purchase;
+import com.example.rewards.repository.RewardsRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
